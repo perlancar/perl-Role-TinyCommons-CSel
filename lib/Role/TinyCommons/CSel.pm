@@ -1,4 +1,4 @@
-package Role::TinyCommons::Tree::Node;
+package Role::TinyCommons::CSel;
 
 # DATE
 # VERSION
@@ -36,11 +36,14 @@ This role adds a C<select()> method to select nodes using L<Data::CSel>.
 
 L<Role::TinyCommons::Tree::Node>
 
+
 =head1 PROVIDED METHODS
 
 =head2 select([ \%opts, ] $expr)
 
 
 =head1 SEE ALSO
+
+L<Role::TinyCommons>
 
 L<Data::CSel>
